@@ -10,11 +10,48 @@
   </head>
   <body>
     <header class="header">
-      
+      <div class="header__info">
+        <svg class="header__info-left-logo">
+          <use xlink:href="/images/sprite.svg#logo"></use>
+        </svg>
+        <div class="header__info-right">
+          <p class="header__info-right-text">Топ-3 лучших банка для корпоративных клиентов <span>По версии Markswebb</span></p>
+          <div class="header__info-right-round">
+            <svg class="header__info-right-logo">
+              <use xlink:href="/images/sprite.svg#icon"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <section class="section-login">
-
+        <div class="container">
+          <div class="login">
+            <form class="login__form" action="#" method="post">
+              <h2 class="login__form-title">Вход в ГПБ Бизнес-Онлайн</h2>
+              <div class="custom-input">
+                <label for="" class="custom-input__label">
+                  <span class="custom-input__login">Логин</span>
+                </label>
+                <input class="custom-input__field" name="login" id="login" type="text">
+                <svg class="custom-input__icon-login">
+                  <use xlink:href="/images/sprite.svg#login-icon"></use>
+                </svg>
+              </div>
+              <div class="custom-input">
+                <label for="" class="custom-input__label">
+                  <span class="custom-input__password">Пароль</span>
+                </label>
+                <input class="custom-input__field" name="password" id="password" type="password">
+                <svg class="custom-input__icon-password">
+                  <use xlink:href="/images/sprite.svg#passwd-icon"></use>
+                </svg>
+              </div>
+            </form>
+          </div>
+          <div class="login-etp"></div>
+        </div>
       </section>
     </main>
     <footer class="footer">
