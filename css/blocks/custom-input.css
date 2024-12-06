@@ -30,8 +30,10 @@
 }
 
 .custom-input__icon {
+    position: absolute;
     width: 24px;
     height: 24px;
+    transform: translate(-170%, 40%);
 }
 
 .custom-input__button {
@@ -41,4 +43,6 @@
     color: #FFFFFF;
     font-size: 16px;
     line-height: 20px;
+    padding: 14px;
+    border-radius: 60px;
 }
