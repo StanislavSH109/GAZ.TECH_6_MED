@@ -45,4 +45,22 @@
     line-height: 20px;
     padding: 14px;
     border-radius: 60px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.custom-input__button:hover {
+    background-color: #3356D7;
+    transition: .2s ease-in;
+}
+
+.custom-input__button:focus {
+    outline: none;
+    background-color: #2143C1;
+    transition: .2s ease-in;
+}
+
+.custom-input__button:disabled {
+    outline: none;
+    background-color: #DBDFEB;
 }

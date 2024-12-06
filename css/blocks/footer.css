@@ -22,12 +22,29 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    fill: #ADAFBA;
+    transition: .2s ease-in;
+}
+
+
+.footer__info-phone:hover {
+    color: #3356D7;
+    fill: #3356D7;
+    transition: .2s ease-in-out;
 }
 
 .footer__info-social {
     display: flex;
     align-items: center;
     gap: 10px;
+    fill: #ADAFBA;
+    transition: .2s ease-in-out;
+}
+
+.footer__info-social:hover {
+    color: #3356D7;
+    fill: #3356D7;
+    transition: .2s ease-out;
 }
 
 .footer__theme {
