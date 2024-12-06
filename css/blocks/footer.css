@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 26px 31px 26px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+}
+
+.footer__info-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.footer__info-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__info-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__theme {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__theme-icon {
+    width: 16px;
+    height: 16px;
+}
