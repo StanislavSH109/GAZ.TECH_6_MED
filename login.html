@@ -28,26 +28,29 @@
       <section class="section-login">
         <div class="container">
           <div class="login">
-            <form class="login__form" action="#" method="post">
-              <h2 class="login__form-title">Вход в ГПБ Бизнес-Онлайн</h2>
-              <div class="custom-input">
-                <label for="" class="custom-input__label">
-                  <span class="custom-input__login">Логин</span>
-                </label>
-                <input class="custom-input__field" name="login" id="login" type="text">
-                <svg class="custom-input__icon-login">
-                  <use xlink:href="/images/sprite.svg#login-icon"></use>
-                </svg>
+            <form class="form" action="#" method="post">
+              <h2 class="form__title">Вход в ГПБ Бизнес-Онлайн</h2>
+              <div class="custom-input__wrapper">
+                <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__login">Логин</span>
+                  </label>
+                  <input class="custom-input__field" name="login" id="login" type="text">
+                  <svg class="custom-input__icon custom-input__icon-login">
+                    <use xlink:href="/images/sprite.svg#login-icon"></use>
+                  </svg>
+                </div>
+                <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__password">Пароль</span>
+                  </label>
+                  <input class="custom-input__field" name="password" id="password" type="password">
+                  <svg class="custom-input__icon custom-input__icon-password">
+                    <use xlink:href="/images/sprite.svg#passwd-icon"></use>
+                  </svg>
+                </div>
               </div>
-              <div class="custom-input">
-                <label for="" class="custom-input__label">
-                  <span class="custom-input__password">Пароль</span>
-                </label>
-                <input class="custom-input__field" name="password" id="password" type="password">
-                <svg class="custom-input__icon-password">
-                  <use xlink:href="/images/sprite.svg#passwd-icon"></use>
-                </svg>
-              </div>
+              <button class="custom-input__button" type="submit">Войти</button>
             </form>
           </div>
           <div class="login-etp"></div>
