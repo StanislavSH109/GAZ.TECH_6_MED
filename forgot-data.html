@@ -27,7 +27,7 @@
     <main>
       <section class="section-forgot">
         <div class="container">
-          <div class="login">
+          <div class="password">
             <form class="form" action="#" method="get">
               <h2 class="form__title">Не можете войти?</h2>
               <div class="custom-radio__wrapper">
@@ -44,12 +44,14 @@
                   </label>
                 </div>
               </div>
-              <button class="custom-radio__button" type="submit">Продолжить</button>
+              <button class="custom-radio__button" type="submit" disabled>Продолжить</button>
             </form>
-            <div class="login__back">
-              <svg class="login__back-icon">
-                <use xlink:href="/images/sprite.svg#row"></use>
-              </svg>
+            <div class="password__back">
+              <button class="password__back-button">
+                <svg class="password__back-icon">
+                  <use xlink:href="/images/sprite.svg#row"></use>
+                </svg>
+              </button>
             </div>
         </div>
       </section>

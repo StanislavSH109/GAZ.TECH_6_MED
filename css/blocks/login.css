@@ -8,6 +8,7 @@
     border-radius: 20px;
     margin: 0 auto 32px auto;
     position: relative;
+    padding: 32px 0 0 0;
 }
 
 .login__forgot {
@@ -59,22 +60,3 @@
     font-weight: 400;
 }
 
-.login__back {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    left: 0;
-    transform: translate(-50%, -100%);
-    box-shadow: 2px 2px 2px 0 #101A3B1A;
-    cursor: pointer;
-}
-
-.login__back-icon {
-    position: absolute;
-    left: 14px;
-    top: 15px;
-    width: 18px;
-    height: 13px;
-}
