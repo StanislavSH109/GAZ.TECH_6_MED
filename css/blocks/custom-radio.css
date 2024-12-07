@@ -1,5 +1,22 @@
+.custom-radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .custom-radio__wrapper {
     border: 1px solid rgba(205, 207, 222, 0.5);
     padding: 28px;
-    width: 100%;
+    width: 386px;
+    border-radius: 12px;
+}
+
+.custom-radio__field {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.custom-radio:not(:last-child) {
+    margin-bottom: 20px;
 }
