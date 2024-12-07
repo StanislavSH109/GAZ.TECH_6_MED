@@ -1,4 +1,10 @@
 .registration {
+    padding: 32px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.registration-link {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -6,6 +12,6 @@
     color: #476BF0;
 }
 
-.registration:hover {
+.registration-link:hover {
     color: #3356D7;
 }

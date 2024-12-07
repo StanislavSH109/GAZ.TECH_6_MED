@@ -15,5 +15,6 @@
 @import "blocks/footer.css";
 @import "blocks/section-login.css";
 @import "blocks/section-forgot.css";
+@import "blocks/section-registration.css";
 @import "blocks/custom-radio.css";
 @import "blocks/password.css";
