@@ -102,11 +102,30 @@
     margin: 20px 0 8px 0;
 }
 
+.custom-input__block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
 .custom-input__icon-refresh {
-    width: 11px;
-    height: 14px;
+    width: 12px;
+    height: 15px;
+    cursor: pointer;
 }
 
 .custom-input__personal {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
     text-align: left;
+    width: 280px;
+    color: #1E222E;
+    margin: 0;
+}
+
+.custom-input__personal-link {
+    color: #3356D7;
 }
