@@ -1,7 +1,6 @@
 .custom-radio {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .custom-radio__wrapper {
@@ -12,14 +11,30 @@
     margin-bottom: 28px;
 }
 
-.custom-radio__field[type="radio"] {
+.custom-radio__field {
+    appearance: none;
     width: 20px;
     height: 20px;
-    border: 1px solid white;
+    border: 1px solid #CDCFDE;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .3s ease-in, border-color .3s ease-in;
+}
+
+.custom-radio__field:checked {
+    background-color: #476BF0;
 }
 
 .custom-radio:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.custom-radio__label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
 }
 
 .custom-radio__text {
