@@ -14,6 +14,26 @@
     height: 44px;
     border-radius: 8px;
     border: 1px solid #CDCFDE;
+    transition: .2s ease-in;
+}
+
+.custom-input__field:hover {
+    border: 1px solid #3356D7;
+    transition: .2s ease-in-out;
+}
+
+.custom-input__field:hover + .custom-input__icon {
+    fill: #3356D7;
+}
+
+.custom-input__field:focus {
+    border: 1px solid #3356D7;
+    transition: .2s ease-in;
+    outline: none;
+}
+
+.custom-input__field:focus + .custom-input__icon {
+    fill: #3356D7;
 }
 
 .custom-input__label {
@@ -33,6 +53,7 @@
     position: absolute;
     width: 24px;
     height: 24px;
+    fill: #8F939F;
     transform: translate(-170%, 40%);
 }
 
