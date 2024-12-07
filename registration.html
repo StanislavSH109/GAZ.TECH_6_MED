@@ -30,6 +30,63 @@
           <div class="section-registration__wrapper">
             <form class="form" action="#">
               <div class="registration">
+                <h2 class="registration__title">Регистрация</h2>
+                <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__login">Фамилия</span>
+                  </label>
+                  <input class="custom-input__field" name="surname" id="surname" type="text">
+                </div>
+                <div class="custom-input__row">
+                  <div class="custom-input">
+                    <label for="" class="custom-input__label">
+                      <span class="custom-input__login">Имя</span>
+                    </label>
+                    <input class="custom-input__field" name="name" id="name" type="text">
+                  </div>
+                  <div class="custom-input">
+                    <label for="" class="custom-input__label">
+                      <span class="custom-input__login">Отчество</span>
+                    </label>
+                    <input class="custom-input__field" name="second-surname" id="second-surname" type="text">
+                  </div>
+                </div>
+              <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__login">Логин</span>
+                  </label>
+                  <input class="custom-input__field" name="login" id="login" type="text">
+                </div>
+                <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__login">Пароль</span>
+                  </label>
+                  <input class="custom-input__field" name="password" id="password" type="text">
+                </div>
+                <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__login">Телефон</span>
+                  </label>
+                  <input class="custom-input__field" name="phone" id="phone" type="tel"  placeholder="+7 (XXX) XXX-XX-XX">
+                </div>
+                <div class="custom-input">
+                  <label for="" class="custom-input__label">
+                    <span class="custom-input__login">Email</span>
+                  </label>
+                  <input class="custom-input__field" name="email" id="email" type="email">
+                </div>
+                <div class="custom-input__row">
+                  <div class="custom-input">
+                      <div class="custom-input__group">
+                        <span class="custom-input__login">Код с картинки</span>
+                        <svg class="custom-input__icon-refresh">
+                          <use xlink:href="/images/sprite.svg#refresh"></use>
+                        </svg>
+                      </div>
+                    <input class="custom-input__field" name="name" id="name" type="text">
+                    <input class="custom-input__field" name="email" id="email" type="email">
+                  </div>
+                </div>
                 <button class="registration__button" type="submit">Продолжить</button>
               </div>
             </form>

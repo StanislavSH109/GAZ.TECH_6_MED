@@ -1,7 +1,18 @@
 .registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 32px;
     border-radius: 20px;
     background-color: #FFFFFF;
+    position: relative;
+    min-width: 450px;
+    gap: 12px;
+}
+
+.registration__title {
+    margin: 0 0 20px 0;
 }
 
 .registration-link {
@@ -14,4 +25,34 @@
 
 .registration-link:hover {
     color: #3356D7;
+}
+
+.registration__button {
+    width: 100%;
+    border: none;
+    background-color: #476BF0;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: .2s ease-in;
+    
+}
+
+.registration__button:hover {
+    background-color: #3356D7;
+    transition: .2s ease-in;
+}
+
+.regitstration__button:focus {
+    outline: none;
+    background-color: #2143C1;
+    transition: .2s ease-in;
+}
+
+.registration__button:disabled {
+    outline: none;
+    background-color: #DBDFEB;
 }
