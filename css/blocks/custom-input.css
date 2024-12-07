@@ -99,10 +99,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
+    margin: 20px 0 8px 0;
 }
 
 .custom-input__icon-refresh {
     width: 11px;
     height: 14px;
+}
+
+.custom-input__personal {
+    text-align: left;
 }
