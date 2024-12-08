@@ -145,7 +145,7 @@
     line-height: 20px;
     font-weight: 400;
     text-align: left;
-    width: 280px;
+    width: 320px;
     color: #1E222E;
     margin: 0;
 }
@@ -155,7 +155,7 @@
 }
 
 .custom-input__label-checkbox {
-    display: flex;
+    cursor: pointer;
 }
 
 .custom-input__checkbox {
@@ -175,4 +175,18 @@
     left: 0;
     transform: translate(-150%, 0%);
     border-radius: 4px;
+}
+
+.custom-input__label-checkbox::after {
+    content: "";
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.custom-input__checkbox:checked  {
+    background-color: #2143C1;
 }
