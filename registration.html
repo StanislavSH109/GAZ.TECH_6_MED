@@ -11,9 +11,11 @@
   <body>
     <header class="header">
       <div class="header__info">
-        <svg class="header__info-left-logo">
-          <use xlink:href="/images/sprite.svg#logo"></use>
-        </svg>
+        <a href="" class="header__info-logo-link">
+          <svg class="header__info-logo-icon">
+            <use xlink:href="/images/sprite.svg#logo"></use>
+          </svg>
+        </a>
         <div class="header__info-right">
           <p class="header__info-right-text">Топ-3 лучших банка для корпоративных клиентов <span>По версии Markswebb</span></p>
           <div class="header__info-right-round">
@@ -89,12 +91,12 @@
                 </div>
                 <button class="registration__button" type="submit">Продолжить</button>
                 <div class="custom-input">
-                  <div class="custom-input__block">
-                    <input class="custom-input__checkbox" name="email" id="email" type="checkbox">
-                    <span class="custom-input__personal">
-                      Согласен на обработку и передачу <a href="#" class="custom-input__personal-link">персональных данных</a>
-                    </span>
-                  </div>
+                    <label class="custom-input__label-checkbox">
+                      <input class="custom-input__checkbox" name="email" id="email" type="checkbox">
+                      <span class="custom-input__personal">
+                        Согласен на обработку и передачу <a href="#" class="custom-input__personal-link">персональных данных</a>
+                      </span>
+                    </label>
                 </div>
               </div>
               <a class="registration__enter" href="#">Войти в ГПБ Бизнес-онлайн</a>

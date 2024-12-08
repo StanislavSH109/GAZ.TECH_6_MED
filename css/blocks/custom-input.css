@@ -153,3 +153,26 @@
 .custom-input__personal-link {
     color: #3356D7;
 }
+
+.custom-input__label-checkbox {
+    display: flex;
+}
+
+.custom-input__checkbox {
+    position: absolute;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+}
+
+.custom-input__label-checkbox::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CDCFDE;
+    position: absolute;
+    left: 0;
+    transform: translate(-150%, 0%);
+    border-radius: 4px;
+}
