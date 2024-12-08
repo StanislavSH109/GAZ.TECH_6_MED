@@ -36,6 +36,19 @@
     fill: #3356D7;
 }
 
+.custom-input__field-text-error {
+    color: #F6514B;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    transform: translate(-10%, 20%);
+    display: block;
+    width: 150px;
+}
+
 .custom-input__label {
     font-size: 14px;
     line-height: 16px;
@@ -43,8 +56,6 @@
     position: absolute;
     background-color: #FFFFFF;
     padding: 0 1px 0 1px;
-    left: 0;
-    top: 0;
     transform: translate(30%, -50%);
     color: #8F939F;
 }
@@ -53,8 +64,10 @@
     position: absolute;
     width: 24px;
     height: 24px;
+    top: 0;
+    right: 0;
     fill: #8F939F;
-    transform: translate(-170%, 40%);
+    transform: translate(-50%, 40%);
 }
 
 .custom-input__button {
