@@ -37,16 +37,27 @@
 }
 
 .custom-input__field-text-error {
+    display: none;
     color: #F6514B;
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    /* position: absolute; */
     bottom: 0;
     left: 0;
     transform: translate(-10%, 20%);
-    display: block;
     width: 150px;
+}
+
+.custom-input__field--error ~ .custom-input__icon {
+    fill: #F9C4C2;
+}
+
+.custom-input__field--error ~ .custom-input__field {
+    border: 1px solid #F9C4C2;
+}
+
+.custom-input__field--error ~ .custom-input__field-text-error {
+    display: block;
 }
 
 .custom-input__label {
