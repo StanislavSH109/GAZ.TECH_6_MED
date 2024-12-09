@@ -112,6 +112,14 @@
 }
 
 .custom-input__personal {
+    
+}
+
+.custom-input__personal-link {
+    color: #3356D7;
+}
+
+.custom-input__label-checkbox {
     display: block;
     font-size: 16px;
     line-height: 20px;
@@ -120,13 +128,6 @@
     width: 320px;
     color: #1E222E;
     margin: 0;
-}
-
-.custom-input__personal-link {
-    color: #3356D7;
-}
-
-.custom-input__label-checkbox {
     cursor: pointer;
 }
 
@@ -151,7 +152,7 @@
 
 .custom-input__label-checkbox::after {
     content: "";
-    display: none;
+    display: block;
     position: absolute;
     width: 20px;
     height: 20px;
@@ -159,6 +160,7 @@
     left: 0;
 }
 
-.custom-input__checkbox:checked  {
+.custom-input__checkbox:checked + .custom-input__label-checkbox::after {
     background-color: #2143C1;
+    display: block;
 }
