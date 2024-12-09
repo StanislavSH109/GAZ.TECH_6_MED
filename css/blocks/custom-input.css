@@ -61,6 +61,15 @@
     transform: translateX(-20%);
 }
 
+.custom-input__field::placeholder {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(143, 147, 159, 1);
+    padding: 14px 16px;
+}
+
 .custom-input__label {
     font-size: 14px;
     line-height: 16px;
@@ -86,7 +95,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0 8px 0;
+    margin: 20px 0 10px 0;
 }
 
 .custom-input__block {
