@@ -1,9 +1,15 @@
- .form {
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .form__title {
@@ -12,4 +18,33 @@
     line-height: 28px;
     font-weight: 400;
     margin: 0 0 20px 0;
+}
+
+form__button {
+    width: 100%;
+    border: none;
+    background-color: #476BF0;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+form__button:hover {
+    background-color: #3356D7;
+    transition: .2s ease-in;
+}
+
+form__button:focus {
+    outline: none;
+    background-color: #2143C1;
+    transition: .2s ease-in;
+}
+
+form__button:disabled {
+    outline: none;
+    background-color: #DBDFEB;
 }
