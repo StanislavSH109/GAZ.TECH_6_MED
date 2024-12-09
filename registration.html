@@ -39,7 +39,7 @@
                   </label>
                   <input class="custom-input__field" name="surname" id="surname" type="text">
                 </div>
-                <div class="custom-input__row">
+                <div class="registration__row">
                   <div class="custom-input">
                     <label  class="custom-input__label">
                       <span class="custom-input__login">Имя</span>
@@ -77,7 +77,7 @@
                   </label>
                   <input class="custom-input__field" name="email" id="email" type="email">
                 </div>
-                <div class="custom-input__row">
+                <div class="registration__row">
                   <div class="custom-input">
                       <div class="custom-input__group">
                         <span class="custom-input__login">Код с картинки</span>
@@ -86,7 +86,10 @@
                         </svg>
                       </div>
                     <input class="custom-input__field" name="name" id="code" type="text">
-                    <input class="custom-input__field" name="email" id="capcha" type="email">
+                    <input class="custom-input__field" name="email" id="captcha" type="email">
+                    <svg class="custom-input__field-captcha">
+                      <use xlink:href="/images/sprite.svg#captcha"></use>
+                    </svg>
                   </div>
                 </div>
                 <button class="registration__button" type="submit">Продолжить</button>
@@ -99,7 +102,7 @@
                     </label>
                 </div>
               </div>
-              <a class="registration__enter" href="#">Войти в ГПБ Бизнес-онлайн</a>
+              <a class="enter-business-online" href="#">Войти в ГПБ Бизнес-онлайн</a>
             </form>
             <div class="advantages">
               <h2 class="advantages__title">ГПБ Бизнес ID — один для всех</h2>

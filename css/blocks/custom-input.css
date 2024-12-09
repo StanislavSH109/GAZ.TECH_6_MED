@@ -53,6 +53,14 @@
     display: block;
 }
 
+.custom-input__field-captcha {
+    position: absolute;
+    width: 130px;
+    height: 44px;
+    right: 0;
+    transform: translateX(-20%);
+}
+
 .custom-input__label {
     font-size: 14px;
     line-height: 16px;
@@ -72,15 +80,6 @@
     right: 0;
     fill: #8F939F;
     transform: translate(-50%, 40%);
-}
-
-.custom-input__row {
-    display: flex;
-    gap: 10px;
-}
-
-.custom-input__row input {
-    width: 188px;
 }
 
 .custom-input__group {
