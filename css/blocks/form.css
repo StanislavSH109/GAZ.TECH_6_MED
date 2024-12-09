@@ -3,13 +3,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
 }
 
 .form__wrapper {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    border: 1px solid rgba(205, 207, 222, 0.5);
+    border-radius: 12px;
+    width: 100%;
+    padding: 32px;
+    margin-bottom: 28px;
 }
 
 .form__title {
@@ -20,7 +24,7 @@
     margin: 0 0 20px 0;
 }
 
-form__button {
+.form__button {
     width: 100%;
     border: none;
     background-color: #476BF0;
@@ -33,18 +37,18 @@ form__button {
     transition: .2s ease-in;
 }
 
-form__button:hover {
+.form__button:hover {
     background-color: #3356D7;
     transition: .2s ease-in;
 }
 
-form__button:focus {
+.form__button:focus {
     outline: none;
     background-color: #2143C1;
     transition: .2s ease-in;
 }
 
-form__button:disabled {
+.form__button:disabled {
     outline: none;
     background-color: #DBDFEB;
 }
