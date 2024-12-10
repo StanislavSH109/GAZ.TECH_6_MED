@@ -13,8 +13,8 @@
 
 .custom-radio__field {
     appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     border: 1px solid #CDCFDE;
     border-radius: 50%;
     outline: none;
@@ -23,7 +23,7 @@
 }
 
 .custom-radio__field:checked {
-    background-color: #476BF0;
+    background: url(/images/sprite/ellipse.svg) no-repeat center #476BF0;
 }
 
 .custom-radio:not(:last-child) {
