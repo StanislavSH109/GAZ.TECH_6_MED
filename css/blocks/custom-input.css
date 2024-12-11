@@ -98,6 +98,10 @@
     margin: 20px 0 10px 0;
 }
 
+.custom-input-captcha {
+    margin-bottom: 12px;
+}
+
 .custom-input__block {
     display: flex;
     align-items: flex-start;
