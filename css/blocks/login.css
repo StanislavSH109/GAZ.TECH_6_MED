@@ -1,4 +1,4 @@
-.login {
+.authorization {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,14 +11,14 @@
     padding: 32px 0 0 0;
 }
 
-.login__wrapper {
+.authorization__wrapper {
     display: flex;
     flex-direction: column;
     gap: 12px;
     margin-bottom: 24px;
 }
 
-.login__forgot {
+.authorization__forgot {
     color: #1E222E;
     font-size: 16px;
     line-height: 20px;
@@ -27,12 +27,12 @@
     transition: .2s ease-in;
 }
 
-.login__forgot:hover {
+.authorization__forgot:hover {
     color: #3356D7;
     transition: .2s ease-in;
 }
 
-.login__etp {
+.authorization__etp {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
     gap: 8px;
 }
 
-.login__etp-round {
+.authorization__etp-round {
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -54,13 +54,13 @@
     height: 32px;
 }
 
-.login__etp-icon {
+.authorization__etp-icon {
     width: 24px;
     height: 24px;
     transform: translateY(15%);
 }
 
-.login__etp-text {
+.authorization__etp-text {
     color: #7E7D87;
     font-size: 14px;
     line-height: 16px;
