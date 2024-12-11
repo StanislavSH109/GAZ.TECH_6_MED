@@ -8,7 +8,7 @@
 /* Blocks */
 /* ------------------------------------ */
 @import "blocks/header.css";
-@import "blocks/login.css";
+@import "blocks/authorization.css";
 @import "blocks/custom-input.css";
 @import "blocks/form.css";
 @import "blocks/registration.css";
