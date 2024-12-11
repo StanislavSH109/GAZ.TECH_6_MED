@@ -33,80 +33,82 @@
         <h1 class="visually-hidden">Создать аккаунт</h1>
         <div class="container">
           <div class="section-registration__wrapper">
-            <form class="form" action="#">
+            <div class="section-registration__block">
               <div class="registration">
                 <h2 class="registration__title">Регистрация</h2>
-                <div class="custom-input">
-                  <label  class="custom-input__label">
-                    <span class="custom-input__surname">Фамилия</span>
-                  </label>
-                  <input class="custom-input__field" name="surname" id="surname" type="text">
-                </div>
-                <div class="registration__row">
+                <form class="form" action="#">
                   <div class="custom-input">
                     <label  class="custom-input__label">
-                      <span class="custom-input__name">Имя</span>
+                      <span class="custom-input__surname">Фамилия</span>
                     </label>
-                    <input class="custom-input__field" name="name" id="name" type="text">
+                    <input class="custom-input__field" name="surname" id="surname" type="text">
+                  </div>
+                  <div class="registration__row">
+                    <div class="custom-input">
+                      <label  class="custom-input__label">
+                        <span class="custom-input__name">Имя</span>
+                      </label>
+                      <input class="custom-input__field" name="name" id="name" type="text">
+                    </div>
+                    <div class="custom-input">
+                      <label  class="custom-input__label">
+                        <span class="custom-input__second-surname">Отчество</span>
+                      </label>
+                      <input class="custom-input__field" name="second-surname" id="second-surname" type="text">
+                    </div>
+                  </div>
+                <div class="custom-input">
+                    <label  class="custom-input__label">
+                      <span class="custom-input__login">Логин</span>
+                    </label>
+                    <input class="custom-input__field" name="login" id="login" type="text">
                   </div>
                   <div class="custom-input">
                     <label  class="custom-input__label">
-                      <span class="custom-input__second-surname">Отчество</span>
+                      <span class="custom-input__password">Пароль</span>
                     </label>
-                    <input class="custom-input__field" name="second-surname" id="second-surname" type="text">
+                    <input class="custom-input__field" name="password" id="password" type="password">
                   </div>
-                </div>
-              <div class="custom-input">
-                  <label  class="custom-input__label">
-                    <span class="custom-input__login">Логин</span>
-                  </label>
-                  <input class="custom-input__field" name="login" id="login" type="text">
-                </div>
-                <div class="custom-input">
-                  <label  class="custom-input__label">
-                    <span class="custom-input__password">Пароль</span>
-                  </label>
-                  <input class="custom-input__field" name="password" id="password" type="password">
-                </div>
-                <div class="custom-input">
-                  <label  class="custom-input__label">
-                    <span class="custom-input__phone-number">Телефон</span>
-                  </label>
-                  <input class="custom-input__field" name="phone" id="phone" type="tel"  placeholder="+7 (XXX) XXX-XX-XX">
-                </div>
-                <div class="custom-input">
-                  <label  class="custom-input__label">
-                    <span class="custom-input__email">Email</span>
-                  </label>
-                  <input class="custom-input__field" name="email" id="email" type="email">
-                </div>
-                <div class="registration__row">
                   <div class="custom-input">
-                      <div class="custom-input__group">
-                        <span class="custom-input__captcha">Код с картинки</span>
-                        <svg class="custom-input__icon-refresh">
-                          <use xlink:href="/images/sprite.svg#refresh"></use>
-                        </svg>
-                      </div>
-                    <input class="custom-input__field" name="name" id="code" type="text">
-                    <input class="custom-input__field" name="email" id="captcha" type="email">
-                    <svg class="custom-input__field-captcha">
-                      <use xlink:href="/images/sprite.svg#captcha"></use>
-                    </svg>
+                    <label  class="custom-input__label">
+                      <span class="custom-input__phone-number">Телефон</span>
+                    </label>
+                    <input class="custom-input__field" name="phone" id="phone" type="tel"  placeholder="+7 (XXX) XXX-XX-XX">
                   </div>
-                </div>
-                <button class="registration__button" type="submit">Продолжить</button>
-                <div class="custom-input">
-                  <input class="custom-input__checkbox" name="checkbox" id="agree" type="checkbox">
-                  <label class="custom-input__label-checkbox" for ="agree">Согласен на обработку и передачу <a href="#" class="custom-input__personal-link">персональных данных</a></label>
-                </div>
+                  <div class="custom-input">
+                    <label  class="custom-input__label">
+                      <span class="custom-input__email">Email</span>
+                    </label>
+                    <input class="custom-input__field" name="email" id="email" type="email">
+                  </div>
+                  <div class="registration__row">
+                    <div class="custom-input">
+                        <div class="custom-input__group">
+                          <span class="custom-input__captcha">Код с картинки</span>
+                          <svg class="custom-input__icon-refresh">
+                            <use xlink:href="/images/sprite.svg#refresh"></use>
+                          </svg>
+                        </div>
+                      <input class="custom-input__field" name="name" id="code" type="text">
+                      <input class="custom-input__field" name="email" id="captcha" type="email">
+                      <svg class="custom-input__field-captcha">
+                        <use xlink:href="/images/sprite.svg#captcha"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <button class="registration__button" type="submit">Продолжить</button>
+                  <div class="custom-input">
+                    <input class="custom-input__checkbox" name="checkbox" id="agree" type="checkbox">
+                    <label class="custom-input__label-checkbox" for ="agree">Согласен на обработку и передачу <a href="#" class="custom-input__personal-link">персональных данных</a></label>
+                  </div>
+                </form>
               </div>
               <a class="enter-business-online" href="#">Войти в ГПБ Бизнес-онлайн</a>
-            </form>
+            </div>
             <div class="advantages">
               <h2 class="advantages__title">ГПБ Бизнес ID — один для всех</h2>
               <ul class="advantages__list">
-                <li class="advantages__item">
+                <ol class="advantages__item">
                   <div class="advantage-content">
                     <div class="advantage-content__numeral">
                       <span class="advantage-content__numeral-number">1</span>
@@ -115,8 +117,8 @@
                       Единая учетная запись для работы с продуктами и сервисами, предоставляемыми группой Банк ГПБ (АО) и партнёрами
                     </p>
                   </div>
-                </li>
-                <li class="advantages__item">
+                </ol>
+                <ol class="advantages__item">
                   <div class="advantage-content">
                     <div class="advantage-content__numeral">
                       <span class="advantage-content__numeral-number">2</span>
@@ -125,8 +127,8 @@
                       Возможность одновременной работы с несколькими продуктами без необходимости переходить из одной системы в другую
                     </p>
                   </div>
-                </li>
-                <li class="advantages__item">
+                </ol>
+                <ol class="advantages__item">
                   <div class="advantage-content">
                     <div class="advantage-content__numeral">
                       <span class="advantage-content__numeral-number">3</span>
@@ -135,7 +137,7 @@
                       Гарантия защиты Ваших персональных данных
                     </p>
                   </div>
-                </li>
+                </ol>
               </ul>
             </div>
           </div>
