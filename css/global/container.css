@@ -4,3 +4,10 @@
   padding: 0 28px;
   text-align: center;
 }
+
+.container-leveling {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

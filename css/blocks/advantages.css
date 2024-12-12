@@ -24,6 +24,10 @@
     gap: 20px;
 }
 
+.advantages__item:last-child {
+    align-items: center;
+}
+
 .advantages__item-number {
     display: flex;
     justify-content: center;

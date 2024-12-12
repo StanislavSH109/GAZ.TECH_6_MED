@@ -6,7 +6,7 @@
     width: 450px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    margin: 0 auto 32px auto;
+    margin-bottom: 32px;
 }
 
 .authorization__title {

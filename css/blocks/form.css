@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 20px;
 }
 
 .form__wrapper {
