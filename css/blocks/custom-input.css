@@ -8,6 +8,11 @@
     border-radius: 8px;
     border: 1px solid #CDCFDE;
     transition: .2s ease-in;
+    padding: 0 5px 0 5px;
+}
+
+.custom-input__field--indentation-icon {
+    padding: 0 40px 0 5px;
 }
 
 .custom-input__field:hover {
